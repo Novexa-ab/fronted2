@@ -1,17 +1,5 @@
 export default function Home() {
   return (
-    <main>
-      <h1>Novexa AB</h1>
-      <p>Välkommen till vår hemsida.</p>
-    </main>
-  );
-}
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { motion } from "framer-motion";
-
-export default function Home() {
-  return (
     <main className="min-h-screen bg-white text-gray-900">
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center py-24 px-6 text-center">
