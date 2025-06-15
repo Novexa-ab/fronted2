@@ -1,12 +1,8 @@
-export const metadata = {
-  title: "Novexa AB",
-  description: "Välkommen till vår hemsida",
-};
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function Home() {
   return (
-    <html lang="sv">
-      <body>{children}</body>
-    </html>
+    <main>
+      <h1>Novexa AB</h1>
+      <p>Välkommen till vår hemsida.</p>
+    </main>
   );
 }
